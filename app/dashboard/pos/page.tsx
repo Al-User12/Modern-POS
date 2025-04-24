@@ -624,6 +624,19 @@ export default function POSPage() {
             <div className="py-4 space-y-4">
               <div className="text-center">
                 <h3 className="font-bold text-lg">Sistem POS Modern</h3>
+                <div className="text-xs text-muted-foreground mt-1 flex items-center justify-center gap-1">
+                  <span>Created with</span>
+                  <span className="text-red-500">❤️</span>
+                  <span>by</span>
+                  <a 
+                    href="https://github.com/Al-User12" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-primary hover:underline font-medium"
+                  >
+                    Al Fikri KM
+                  </a>
+                </div>
                 <p className="text-sm text-muted-foreground">Struk #{receiptData.id}</p>
                 <p className="text-sm text-muted-foreground">{receiptData.date}</p>
               </div>

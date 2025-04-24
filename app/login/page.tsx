@@ -86,6 +86,9 @@ export default function LoginPage() {
         <CardFooter className="flex justify-center">
           <p className="text-sm text-muted-foreground">Kredensial demo: admin/admin (Admin), cashier/cashier (Kasir)</p>
         </CardFooter>
+        <CardFooter className="flex justify-center bg-muted/50 border-t py-4">
+          <p className="text-sm font-medium">Created with ❤️ by <a href="https://github.com/Al-User12" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Al Fikri KM</a></p>
+        </CardFooter>
       </Card>
     </div>
   )

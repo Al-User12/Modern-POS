@@ -122,6 +122,16 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         <div className="flex items-center gap-2 font-semibold md:text-xl">
           <ShoppingCart className="h-6 w-6" />
           <span className="hidden md:inline-block">Sistem POS Modern</span>
+          <p className="text-xs text-muted-foreground">
+            <span>Created with</span>
+            <span className="text-red-500">❤️</span>
+            <span>by</span>
+            <span>
+            <a href="https://github.com/Al-User12" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">
+              Al Fikri KM
+            </a>
+            </span>
+          </p>
         </div>
         <div className="ml-auto flex items-center gap-4">
           <ThemeToggle />
